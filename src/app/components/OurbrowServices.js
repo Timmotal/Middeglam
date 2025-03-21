@@ -14,7 +14,7 @@ export default function OurbrowServices() {
           <div className=" w-full border-b-[1.5px] border-[#C09A92] my-4"></div>
           </div>
           <p className="text-gray-600 leading-8">
-          Middeglam has perfected her own technique by tailoring each brow to the client's unique 
+          Middeglam has perfected her own technique by tailoring each brow to the client unique 
           features, much like a fingerprint. She works closely with every individual, carefully
            analyzing arches, shapes, and lines while considering facial contours and color tones
             to create the perfect, natural-looking brow.
