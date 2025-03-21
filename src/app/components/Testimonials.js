@@ -5,7 +5,10 @@ export default function TestimonialSection() {
   // Array of testimonials. Each has text & author.
   const testimonials = [
     {
-      text: `What can I say, Middeglam... except that you are the best in the city & the only person I trust to touch my brows. You are truly the Queen & it’s evident that you love your work because you are so passionate about it. Thank you for bringing my brows back to life. They are such an important facial feature because they frame your eyes. So many people neglect their brows. You. Are. Awesome, Middeglam Tran!`,
+      text: `I honestly can't say enough Middeglam you’re the best in the city and the only artist 
+      I trust with my brows. Your passion and dedication are unmatched, and it’s clear you love what you do.
+       Thank you for bringing my brows back to life! They define my face, and I wouldn’t trust anyone else.
+        You are truly a master of your craft!`,
       author: "PAULA",
     },
     {
@@ -41,7 +44,7 @@ export default function TestimonialSection() {
       <div className="bg-white max-w-3xl w-full p-8 rounded-md shadow-md text-center relative">
         {/* Title */}
         <h2 className="text-2xl font-bold uppercase tracking-widest text-[#AB696D] mb-6">
-          Testimonials
+        What People Are Saying
         </h2>
 
         {/* Arrow Left */}
