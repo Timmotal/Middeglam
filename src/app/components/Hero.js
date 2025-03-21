@@ -41,7 +41,8 @@ const Hero = () => {
     Wake Up Flawless
 </h1> */}
 
-<p className={`${bigShoulders.className} font-bold my-4 text-lg uppercase md:text-4xl`}>Microblading &bull; Combo Brows &bull; Ombre Powder Brows</p>
+<p className={`${bigShoulders.className} font-bold my-4 text-lg uppercase md:text-4xl`}>
+  Microblading &bull; Microshading &bull; Ombre Powder Brows &bull; Combo Brows</p>
 <Link href="#" className="mt-6 px-6 py-3 text-md md:text-3xl bg-[#AB696D] text-white hover:bg-[#c6a9a6] hover:scale-105 transition-all duration-300">
   Book Your Brow Appointment
 </Link>
