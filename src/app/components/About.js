@@ -19,7 +19,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row items-center bg-pink-50 shadow-lg  mt-10">
       {/* Left - Text Section */}
       <div className="flex-1 text-center md:text-center p-6">
-        <h2 className={`${loversQuarrel.className} text-7xl text-[#C09A92]`}>about Middeglam</h2>
+        <h2 className={`${loversQuarrel.className} text-6xl md:text-7xl text-[#C09A92]`}>about Middeglam</h2>
         <h3 className={` ${anticDidone.className} text-2xl text-gray-700 uppercase font-semibold tracking-wide my-4`}>
           Owner + Brow Expert
         </h3>

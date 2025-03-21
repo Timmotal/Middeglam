@@ -8,7 +8,7 @@ export default function OurbrowServices() {
         {/* Text Section */}
         <div className="flex flex-col justify-center items-center pb-8 md:pb-0 px-4 w-full md:w-1/2">
         <div className="">
-          <h2 className=" text-4xl  font-light uppercase text-gray-700">
+          <h2 className="text-3xl md:text-4xl  font-light uppercase text-gray-700">
             Our Brow Services
           </h2>
           <div className=" w-full border-b-[1.5px] border-[#C09A92] my-4"></div>

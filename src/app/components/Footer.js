@@ -77,17 +77,13 @@ export default function Footer() {
       {/* Social Icons */}
       <div className="mt-8 flex justify-center space-x-6">
         <Link href="https://facebook.com">
-        <FaFacebook className="text-black text-2xl hover:text-blue-800" />
-          <Image src="/facebook-icon.png" alt="Facebook" width={24} height={24} />
-          <FontAwesomeIcon icon={faFacebookF} className="text-[#f81717] text-3xl transition-transform duration-300 hover:text-orange-500 hover:scale-110" />
+          <FontAwesomeIcon icon={faFacebookF} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
         </Link>
         <Link href="https://instagram.com">
-        <FaInstagram className="text-pink-500 text-2xl hover:text-pink-700" />
-        <FontAwesomeIcon icon={faInstagram} />
+        <FontAwesomeIcon icon={faInstagram} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
         </Link>
         <Link href="mailto:info@lisatranbrows.com">
-        <FaEnvelope className="text-gray-700 text-2xl hover:text-gray-900" />
-        <FontAwesomeIcon icon={faEnvelope} />
+        <FontAwesomeIcon icon={faEnvelope} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
          </Link>
       </div>
 

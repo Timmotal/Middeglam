@@ -20,8 +20,8 @@ const VideoSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative text-center text-white px-6 z-10">
-        <h2 className={` ${josefinSans.className} text-2xl md:text-5xl max-w-2xl font-thin leading-10 md:leading-18 uppercase tracking-widest`}>
+      <div className="relative text-center text-white px-6 pt-56 md:pt-0 z-10">
+        <h2 className={` ${josefinSans.className} text-2xl md:text-5xl max-w-2xl font-light leading-10 md:leading-18 uppercase tracking-widest`}>
           Book Your Brow Appointment Today
         </h2>
         <button className="mt-6 bg-[#C09A92] text-white font-semibold py-3 px-8 md:px-32 transition cursor-pointer">

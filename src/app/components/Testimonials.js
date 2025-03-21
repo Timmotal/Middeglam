@@ -1,60 +1,73 @@
 "use client";
+import { useState } from "react";
 
-import { useState, useEffect } from "react";
+export default function TestimonialSection() {
+  // Array of testimonials. Each has text & author.
+  const testimonials = [
+    {
+      text: `What can I say, Lisa... except that you are the best in the city & the only person I trust to touch my brows. You are truly the Queen & it’s evident that you love your work because you are so passionate about it. Thank you for bringing my brows back to life. They are such an important facial feature because they frame your eyes. So many people neglect their brows. You. Are. Awesome, Lisa Tran!`,
+      author: "SHARON",
+    },
+    {
+      text: `Lisa is absolutely amazing! She transformed my brows into a masterpiece. Her attention to detail is unmatched, and I feel more confident than ever. Thank you so much!`,
+      author: "CAROLINE",
+    },
+    {
+      text: `I've been to many brow studios, but none compare to Lisa's expertise and professionalism. Highly recommend for anyone looking to up their brow game!`,
+      author: "AMANDA",
+    },
+  ];
 
-const testimonials = [
-  {
-    text: "What can I say, Lisa...except that you are the best in the city & the only person I trust to touch my brows.",
-    author: "Sharon",
-  },
-  {
-    text: "Lisa is truly a queen! Her passion and skill are unmatched. My brows have never looked better!",
-    author: "Jessica",
-  },
-  {
-    text: "A true artist! Lisa transformed my brows, and I couldn't be happier. Highly recommend her!",
-    author: "Monica",
-  },
-];
-
-export default function TestimonialSlider() {
+  // Track which testimonial is displayed
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [currentIndex]);
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+  // Handlers for prev/next arrows
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      (prevIndex - 1 + testimonials.length) % testimonials.length
+    );
   };
 
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
   };
+
+  // Current testimonial data
+  const { text, author } = testimonials[currentIndex];
 
   return (
-    <div className="testimonial-container">
-      <button className="arrow left" onClick={prevSlide}>&#10094;</button>
+    <section className="bg-[#EAD6D7] py-12 px-4 flex flex-col items-center justify-center">
+      {/* Container */}
+      <div className="bg-white max-w-3xl w-full p-8 rounded-md shadow-md text-center relative">
+        {/* Title */}
+        <h2 className="text-2xl font-bold uppercase tracking-widest text-[#AB696D] mb-6">
+          Testimonials
+        </h2>
 
-      <div className="testimonial">
-        <p className="testimonial-text">{testimonials[currentIndex].text}</p>
-        <h4 className="testimonial-author">- {testimonials[currentIndex].author}</h4>
+        {/* Arrow Left */}
+        <button
+          onClick={handlePrev}
+          className="cursor-pointer absolute left-4 top-1/2 transform -translate-y-1/2 text-3xl text-[#AB696D] hover:text-[#AB696D]/80"
+          aria-label="Previous testimonial"
+        >
+          &#10094;
+        </button>
+
+        {/* Arrow Right */}
+        <button
+          onClick={handleNext}
+          className="cursor-pointer absolute right-4 top-1/2 transform -translate-y-1/2 text-3xl text-[#AB696D] hover:text-[#AB696D]/80"
+          aria-label="Next testimonial"
+        >
+          &#10095;
+        </button>
+
+        {/* Main Testimonial Text */}
+        <p className="text-gray-700 text-lg leading-relaxed mb-6">{text}</p>
+
+        {/* Author Name */}
+        <p className="text-[#AB696D] font-semibold text-lg">{author}</p>
       </div>
-
-      <button className="arrow right" onClick={nextSlide}>&#10095;</button>
-
-      <div className="dots">
-        {testimonials.map((_, index) => (
-          <span
-            key={index}
-            className={`dot ${index === currentIndex ? "active" : ""}`}
-            onClick={() => setCurrentIndex(index)}
-          ></span>
-        ))}
-      </div>
-    </div>
+    </section>
   );
 }
