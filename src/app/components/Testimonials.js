@@ -5,16 +5,16 @@ export default function TestimonialSection() {
   // Array of testimonials. Each has text & author.
   const testimonials = [
     {
-      text: `What can I say, Lisa... except that you are the best in the city & the only person I trust to touch my brows. You are truly the Queen & it’s evident that you love your work because you are so passionate about it. Thank you for bringing my brows back to life. They are such an important facial feature because they frame your eyes. So many people neglect their brows. You. Are. Awesome, Lisa Tran!`,
-      author: "SHARON",
+      text: `What can I say, Middeglam... except that you are the best in the city & the only person I trust to touch my brows. You are truly the Queen & it’s evident that you love your work because you are so passionate about it. Thank you for bringing my brows back to life. They are such an important facial feature because they frame your eyes. So many people neglect their brows. You. Are. Awesome, Middeglam Tran!`,
+      author: "PAULA",
     },
     {
-      text: `Lisa is absolutely amazing! She transformed my brows into a masterpiece. Her attention to detail is unmatched, and I feel more confident than ever. Thank you so much!`,
-      author: "CAROLINE",
+      text: `Middeglam is absolutely amazing! She transformed my brows into a masterpiece. Her attention to detail is unmatched, and I feel more confident than ever. Thank you so much!`,
+      author: "JOSEPHINE",
     },
     {
-      text: `I've been to many brow studios, but none compare to Lisa's expertise and professionalism. Highly recommend for anyone looking to up their brow game!`,
-      author: "AMANDA",
+      text: `I've been to many brow studios, but none compare to Middeglam's expertise and professionalism. Highly recommend for anyone looking to up their brow game!`,
+      author: "CHIAMAKA",
     },
   ];
 

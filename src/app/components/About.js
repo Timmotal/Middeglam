@@ -21,16 +21,16 @@ export default function About() {
       <div className="flex-1 text-center md:text-center p-6">
         <h2 className={`${loversQuarrel.className} text-6xl md:text-7xl text-[#C09A92]`}>about Middeglam</h2>
         <h3 className={` ${anticDidone.className} text-2xl text-gray-700 uppercase font-semibold tracking-wide my-4`}>
-          Owner + Brow Expert
+          Owner & Beauty Business Coach
         </h3>
         <p className="text-gray-600 my-10">
-          Lisa is an experienced cosmetic tattoo artist and an arch enthusiast.
-          She’s one of Winnipeg’s leading brow artists. With years of experience
-          in the industry, she understands the fundamentals in creating a perfect
-          brow for each individual.
+          Middeglam is a skilled cosmetic tattoo artist and a true arch perfectionist. 
+          As one of Winnipeg’s top brow artists, she brings years of experience and a deep
+           understanding of the art of crafting flawless, natural-looking brows tailored 
+           to each individual.
         </p>
         <button className=" uppercase bg-[#C09A92] text-white py-3 px-6 cursor-pointer">
-          Learn More About Me
+          See More About Me
         </button>
       </div>
 
@@ -38,7 +38,7 @@ export default function About() {
       <div className="flex-1 flex justify-center items-center">
         <Image
           src="/about.png" // Place an image inside public folder
-          alt="Lisa working"
+          alt="Middeglam working"
           width={450}
           height={300}
           className=" shadow-lg"

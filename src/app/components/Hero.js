@@ -35,7 +35,7 @@ const Hero = () => {
   // style="background-image: url('/middeglam_1.jpg');"
 >
 <h1 className={`${josefinSans.className} text-4xl md:text-6xl font-light pt-64 md:pt-0`}>
-    Wake Up Flawless
+Flawless Brows, Effortless Confidence
 </h1>
 {/* <h1 className={`${bigShoulders.className} text-4xl md:text-6xl font-normal`}>
     Wake Up Flawless
