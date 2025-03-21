@@ -116,7 +116,7 @@ export default function Footer() {
       </div>
 
       <p className="text-center text-gray-500 text-sm mt-4">
-        © COPYRIGHT {new Date().getFullYear()} LISA TRAN BROWS | SITE DESIGN CREDIT
+        © COPYRIGHT {new Date().getFullYear()} MIDDEGLAM BROWS | ALL RIGHTS RESERVED
       </p>
     </section>
       </div>

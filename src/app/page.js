@@ -13,7 +13,7 @@ import TestimonialSlider from "./components/Testimonials";
 export default function Home() {
   return (
     <div>
-      <div className="bg-[url('/lisatran.jpg')] bg-cover bg-center h-screen w-full">
+      <div className="bg-[url('/lisatran.jpg')] bg-cover bg-center md:h-screen w-full">
       <Nav />
       <Hero />
       </div>

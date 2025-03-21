@@ -52,7 +52,7 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <nav
-        className={`fixed top-0 left-0 h-full w-[250px] bg-[#7386D5] text-white transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-[250px] bg-[#AB696D] text-white transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         } z-50`}
       >
@@ -86,10 +86,8 @@ export default function Sidebar() {
         </button>
 
         {/* Sidebar Content */}
-        <div className="p-5 bg-[#6d7fcc]">
-          <h3>Sidebar Header</h3>
-        </div>
-        <ul className="list-none p-5 space-y-3">
+        
+        <ul className="list-none text-center text-2xl p-5 pt-32 space-y-4">
           {["Home", "About", "Portfolio", "Contact"].map((name, index) => (
             <li key={index}>
               <a href="#" onClick={() => setMenuOpen(false)}>
@@ -97,7 +95,7 @@ export default function Sidebar() {
               </a>
             </li>
           ))}
-          <li>
+          {/* <li>
             <a href="#" onClick={() => setMenuOpen(false)}>Services</a>
             <ul className="pl-5 space-y-2">
               {["Service 1", "Service 2", "Service 3"].map((service, idx) => (
@@ -108,8 +106,20 @@ export default function Sidebar() {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
         </ul>
+
+        <div className="text-center bg-white text-2xl text-[#AB696D] w-40 mx-auto">Book Now</div>
+        <div className="p-5 flex bg-[#AB696D] justify-center items-end  align-bottom">
+        <Image
+            src="/middelglamlogo.png"
+            alt="Middeglam Brows Logo"
+            className=""
+            width={200}
+            height={50}
+          />
+          {/* <h3>Middeglam Brows</h3> */}
+        </div>
       </nav>
 
       {/* Overlay */}

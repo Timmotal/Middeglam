@@ -34,15 +34,15 @@ const Hero = () => {
 <div className="  flex flex-col justify-center items-center text-white text-center py-20"
   // style="background-image: url('/middeglam_1.jpg');"
 >
-<h1 className={`${josefinSans.className} text-4xl md:text-6xl font-thin`}>
+<h1 className={`${josefinSans.className} text-4xl md:text-6xl font-light pt-64 md:pt-0`}>
     Wake Up Flawless
 </h1>
-<h1 className={`${bigShoulders.className} text-4xl md:text-6xl font-normal`}>
+{/* <h1 className={`${bigShoulders.className} text-4xl md:text-6xl font-normal`}>
     Wake Up Flawless
-</h1>
+</h1> */}
 
 <p className={`${bigShoulders.className} font-bold my-4 text-lg uppercase md:text-4xl`}>Microblading &bull; Combo Brows &bull; Ombre Powder Brows</p>
-<Link href="#" className="mt-6 px-6 py-3 text-lg bg-[#AB696D] text-white hover:bg-[#c6a9a6] hover:scale-105 transition-all duration-300">
+<Link href="#" className="mt-6 px-6 py-3 text-md md:text-3xl bg-[#AB696D] text-white hover:bg-[#c6a9a6] hover:scale-105 transition-all duration-300">
   Book Your Brow Appointment
 </Link>
 </div>
