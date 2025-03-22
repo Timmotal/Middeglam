@@ -29,7 +29,7 @@ export default function Nav() {
         <li><Link href="#">Information</Link></li>
         
         <div className='px-8 mt-[-40px]'>
-        <Image src="/middelglamlogo.png" alt="Middeglam Brows Logo" width={120} height={50} />
+        <Image src="/middelglamlogo.png" alt="Middeglam Brows Logo" width={150} height={50} />
         </div>
         
         <li><Link href="#">Gallery</Link></li>
