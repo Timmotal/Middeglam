@@ -34,7 +34,7 @@ export default function Nav() {
         
         <li><Link href="#">Gallery</Link></li>
         <li><Link href="#">Contact</Link></li>
-        <li><Link href="#" className="border px-4 py-2 rounded">Book Now</Link></li>
+        <li><Link href="#" className="border px-4 py-2 rounded hover:bg-white hover:text-black">Book Now</Link></li>
       </ul>
     </nav>
   );
