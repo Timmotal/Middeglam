@@ -46,7 +46,7 @@ export default function Sidebar() {
           />
           <div 
           className={` text-[#F8F9FA] font-medium  
-          ${ scrolled ? " bg-[#AB696D] p-2 " : "bg-transparent"
+          ${ scrolled ? " bg-[#AB696D] p-2 mr-4" : "bg-transparent pr-8"
         }`}>
             Book Now
         </div>
