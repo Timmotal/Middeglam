@@ -8,7 +8,7 @@ export default function Sidebar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 200);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -44,7 +44,12 @@ export default function Sidebar() {
             width={120}
             height={50}
           />
-          <div className="text-[#F8F9FA] font-medium">Book Now</div>
+          <div 
+          className={` text-[#F8F9FA] font-medium  
+          ${ scrolled ? " text-yellow-300 " : "bg-transparent"
+        }`}>
+            Book Now
+        </div>
         </div>
 
         
