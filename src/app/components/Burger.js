@@ -18,7 +18,7 @@ export default function Sidebar() {
     <div className="relative">
       {/* Top Bar with Logo, Text, and Menu Button */}
       <div
-        className={`fixed top-0 left-0 w-full flex items-center justify-between px-8 transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full flex items-center justify-between pl-8 transition-all duration-300 ${
           scrolled ? "backdrop-blur-md bg-[#AB696D]/30 shadow-md " : "bg-transparent"
         } z-50`}
       >
@@ -46,7 +46,7 @@ export default function Sidebar() {
           />
           <div 
           className={` text-[#F8F9FA] font-medium  
-          ${ scrolled ? " text-yellow-300 " : "bg-transparent"
+          ${ scrolled ? " bg-[#AB696D] p-2 " : "bg-transparent"
         }`}>
             Book Now
         </div>
