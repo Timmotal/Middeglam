@@ -25,7 +25,7 @@ export default function About() {
         </h3>
         <p className="text-gray-600 my-10">
           Middeglam is a skilled cosmetic tattoo artist and a true arch perfectionist. 
-          As one of Winnipeg’s top brow artists, she brings years of experience and a deep
+          As one of Lagos’ top brow artists, she brings years of experience and a deep
            understanding of the art of crafting flawless, natural-looking brows tailored 
            to each individual.
         </p>
