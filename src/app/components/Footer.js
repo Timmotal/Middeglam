@@ -69,8 +69,9 @@ export default function Footer() {
           <h3 className="text-[#AB696D] text-xl uppercase font-semibold tracking-wider mt-6">
             Hours
           </h3>
-          <p className="text-gray-700">Monday-Friday: 9am-4pm</p>
+          <p className="text-gray-700">Tuesday-Friday: 9am-4pm</p>
           <p className="text-gray-700">Saturday-Sunday: CLOSED</p>
+          <p className="text-gray-700">Monday: CLOSED</p>
         </div>
       </div>
 
