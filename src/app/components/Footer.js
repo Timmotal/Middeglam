@@ -70,7 +70,7 @@ export default function Footer() {
             Hours
           </h3>
           <p className="text-gray-700">Tuesday-Saturday: 9am-5pm</p>
-          <p className="text-gray-700">Saturday-Sunday: CLOSED</p>
+          <p className="text-gray-700">Sunday: CLOSED</p>
           <p className="text-gray-700">Monday: CLOSED</p>
         </div>
       </div>
