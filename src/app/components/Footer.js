@@ -80,7 +80,7 @@ export default function Footer() {
         <Link href="https://facebook.com/middeglam">
           <FontAwesomeIcon icon={faFacebookF} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
         </Link>
-        <Link href="https://instagram.com">
+        <Link href="https://instagram.com/middgeglambrows">
         <FontAwesomeIcon icon={faInstagram} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
         </Link>
         <Link href="mailto:info@gmail.com">
