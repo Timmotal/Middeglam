@@ -77,7 +77,7 @@ export default function Footer() {
 
       {/* Social Icons */}
       <div className="mt-8 flex justify-center space-x-6">
-        <Link href="https://facebook.com">
+        <Link href="https://facebook.com/middeglam">
           <FontAwesomeIcon icon={faFacebookF} className="text-[#AB696D] w-6 h-6 hover:text-[#C09A92] text-3xl transition-transform duration-300  hover:scale-110" />
         </Link>
         <Link href="https://instagram.com">
